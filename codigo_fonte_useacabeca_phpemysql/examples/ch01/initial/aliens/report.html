@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Aliens Abducted Me - Report an Abduction</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div id="formulario">
+       
+        <h2>Aliens Abducted Me - Report an Abduction</h2>
+
+        <p>Compartilhe a sua história de abdução alienígena:</p>
+        <form action="report.php" method="post" >
+        <label for="firstname">Primeiro Nome:</label>
+        <input type="text" id="firstname" name="firstname" /><br />
+        <label for="lastname">Sobre Nome:</label>
+        <input type="text" id="lastname" name="lastname" /><br />
+        <label for="email">Seu E-mail?</label>
+        <input type="text" id="email" name="email" /><br />
+        <label for="whenithappened">Quando isso aconteceu?</label>
+        <input type="text" id="whenithappened" name="whenithappened" /><br />
+        <label for="howlong">Quanto tempo você se foi?</label>
+        <input type="text" id="howlong" name="howlong" /><br />
+        <label for="howmany">Quantos você viu?</label>
+        <input type="text" id="howmany" name="howmany" /><br />
+        <label for="aliendescription">Descreva-os:</label>
+        <input type="text" id="aliendescription" name="aliendescription" size="32" /><br />
+        <label for="whattheydid">O que eles fizeram com você?</label>
+        <input type="text" id="whattheydid" name="whattheydid" size="32" /><br />
+        <label for="fangspotted">Você viu meu cão Fang?</label>
+        Sim <input id="fangspotted" name="fangspotted" type="radio" value="yes" />
+        Não <input id="fangspotted" name="fangspotted" type="radio" value="no" /><br />
+        <img src="fang.jpg" width="100" height="175"
+        alt="My abducted dog Fang." /><br />
+        <label for="other">Qualquer outra coisa que você deseja adicionar?</label>
+        <textarea id="other" name="other"></textarea><br />
+        
+<!--        BOTÂO ENVIAR-->
+        <input type="submit" value="Relatar abdução" name="submit" />
+        
+    </div><!--    FIM FORMULÁRIO    -->
+  </form>
+</body>
+</html>
